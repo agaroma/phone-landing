@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("fonts/Avenir-Heavy.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
