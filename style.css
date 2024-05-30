@@ -25,6 +25,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 18px;
+    overflow-x: hidden;
 
 }
 
@@ -45,7 +46,10 @@ a:active {
     opacity: 1;
 }
 
-.header {}
+.header {
+    position: relative;
+    z-index: 1;
+}
 
 .logo {
     display: flex;
@@ -78,6 +82,7 @@ a:active {
 .container {
     max-width: 1240px;
     margin: 0 auto;
+    padding: 0 15px ;
 }
 
 
@@ -91,14 +96,13 @@ a:active {
 }
 
 main {
-    margin-top: -50px;
 }
 
 .welcome_container {
     position: relative;
 }
 
-.welcome_container::after {
+.welcome_container::after { 
     content: "";
     width: 660px;
     height: 790px;
@@ -120,8 +124,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 30px;
     margin-bottom: 30px;
+    min-height: 700px;
 }
 
 .welcome_desc {}
@@ -167,7 +171,10 @@ main {
 }
 
 .welcome_img {
-    width: 450px;
+    width: 600px;
+    position: absolute;
+    right: -30px;
+    top: -140px;
 }
 
 .welcome_cta {
