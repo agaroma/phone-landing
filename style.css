@@ -15,6 +15,10 @@ h6 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
+
 p {
     margin: 0;
 }
@@ -47,8 +51,6 @@ a:active {
 }
 
 .header {
-    position: relative;
-    z-index: 1;
 }
 
 .logo {
@@ -123,7 +125,6 @@ main {
 .welcome_row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-bottom: 30px;
     min-height: 700px;
 }
@@ -198,6 +199,68 @@ main {
     gap: 30px;
 }
 
+
 .cta_link {}
 
+
+
 .cta_img {}
+
+/**************
+      Mission
+***************/
+
+.mission {
+padding: 150px 85px;
+position: relative;
+}
+
+.container {
+
+}
+
+.mission_container {
+    
+
+}
+
+.mission_img {
+position: absolute;
+transform: rotate(90deg) translate(-43%);
+top: 0;
+right: 50%;
+z-index: -1;
+}
+
+.mission_desc {
+width: 330px;
+margin-left: auto;
+}
+
+.mission_title {
+margin-bottom: 30px;
+position: relative;
+}
+
+.mission_title::after{
+    content: '';
+    position: absolute;
+    right: 55px;
+    top: 7px;
+
+    z-index: -1;
+
+    width: 85px;
+    height: 85px;
+
+    background: #f101bf;
+    opacity: 0.7;
+    filter: blur(50px);
+
+
+
+    
+}
+.mission_text {
+
+}
