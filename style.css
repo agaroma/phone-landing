@@ -264,3 +264,56 @@ position: relative;
 .mission_text {
 
 }
+
+
+/**************
+      common
+***************/
+
+.common {
+
+padding: 50px 0;
+margin-top: 100px;
+}
+
+.scanner {
+    background: linear-gradient(180deg, #000 -3%, rgba(0,0,0,0) 56%, #000 84%), url("./img/bg-scanner.jpg");
+    background-size: cover;
+}
+
+.code {
+    background: linear-gradient(180deg, #000 -3%, rgba(0,0,0,0) 56%, #000 84%), url("./img/bg-code.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.common:nth-child(even) .container {
+    flex-direction: row-reverse;
+}
+
+.common_container {
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.container_small {
+max-width: 1000px;
+}
+
+.common_img {
+
+}
+
+.common_col {
+max-width: 390px;
+}
+
+.common_text {
+
+}
+
+.common_title {
+margin-bottom: 20px;
+}
