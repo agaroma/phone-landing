@@ -224,7 +224,7 @@ main {}
     position: absolute;
     transform: rotate(90deg) translate(-43%);
     top: 0;
-    right: 50%;
+    right: 55%;
     z-index: -1;
 }
 
